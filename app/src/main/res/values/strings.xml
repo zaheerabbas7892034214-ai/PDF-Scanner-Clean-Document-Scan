@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PDF Scanner</string>
+    <string name="camera_screen_title">Scan Document</string>
+    <string name="capture_button">Capture</string>
+    <string name="preview_screen_title">Edit Document</string>
+    <string name="adjust_brightness">Brightness</string>
+    <string name="adjust_contrast">Contrast</string>
+    <string name="add_page">Add Page</string>
+    <string name="generate_pdf">Generate PDF</string>
+    <string name="result_screen_title">PDF Generated</string>
+    <string name="share_pdf">Share PDF</string>
+    <string name="save_success">PDF saved successfully!</string>
+    <string name="pro_screen_title">Upgrade to Pro</string>
+    <string name="unlock_pro">Unlock Pro</string>
+    <string name="restore_purchases">Restore Purchases</string>
+    <string name="pro_active">Pro Active ✓</string>
+    <string name="pro_features">Pro Features:</string>
+    <string name="feature_unlimited_scans">• Unlimited scans</string>
+    <string name="feature_no_watermark">• No watermark</string>
+    <string name="feature_high_quality">• High-quality export</string>
+    <string name="feature_batch_merge">• Batch PDF merging</string>
+    <string name="free_limit">Free: 5 scans per day</string>
+    <string name="scans_remaining">Scans remaining today: %d</string>
+    <string name="scan_limit_reached">Daily scan limit reached. Upgrade to Pro for unlimited scans!</string>
+    <string name="camera_permission_required">Camera permission is required to scan documents</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="done">Done</string>
+    <string name="crop">Crop</string>
+    <string name="reorder_pages">Reorder Pages</string>
+</resources>
