@@ -1,0 +1,73 @@
+PDF-Scanner-Clean-Document-Scan/
+├── README.md                                    # Project overview
+├── IMPLEMENTATION.md                            # Detailed technical docs
+├── QUICKSTART.md                               # Developer setup guide
+├── PROJECT_OVERVIEW.md                         # Visual architecture overview
+├── FILE_STRUCTURE.txt                          # This file
+├── .gitignore                                  # Git ignore rules
+├── build.gradle                                # Root build configuration
+├── settings.gradle                             # Project settings
+├── gradle.properties                           # Gradle properties
+├── gradlew                                     # Gradle wrapper script
+├── gradle/
+│   └── wrapper/
+│       ├── gradle-wrapper.properties           # Gradle version config
+│       └── gradle-wrapper.jar                  # Gradle wrapper JAR
+└── app/
+    ├── build.gradle                            # App module build config (Groovy DSL)
+    ├── proguard-rules.pro                      # ProGuard/R8 rules
+    └── src/
+        └── main/
+            ├── AndroidManifest.xml             # App manifest
+            ├── java/com/zaheer/pdfscanner/
+            │   ├── MainActivity.kt             # Single Activity entry point
+            │   ├── ui/
+            │   │   ├── screens/
+            │   │   │   ├── CameraScreen.kt     # Camera scanning UI
+            │   │   │   ├── PreviewScreen.kt    # Document editing UI
+            │   │   │   ├── ProScreen.kt        # In-app purchase UI
+            │   │   │   └── ResultScreen.kt     # Success/share UI
+            │   │   ├── navigation/
+            │   │   │   ├── NavigationGraph.kt  # Navigation Compose setup
+            │   │   │   └── Screen.kt           # Route definitions
+            │   │   ├── viewmodel/
+            │   │   │   ├── ScannerViewModel.kt # Business logic & state
+            │   │   │   └── ScannerUiState.kt   # State data classes
+            │   │   └── theme/
+            │   │       ├── Theme.kt            # Material 3 theme
+            │   │       └── Type.kt             # Typography definitions
+            │   ├── domain/
+            │   │   └── PdfGenerator.kt         # PDF creation & image processing
+            │   ├── billing/
+            │   │   └── BillingManager.kt       # Google Play Billing integration
+            │   └── utils/
+            │       ├── FileUtils.kt            # MediaStore & FileProvider utils
+            │       └── PreferencesManager.kt   # SharedPreferences manager
+            └── res/
+                ├── drawable/
+                │   └── ic_launcher_foreground.xml  # App icon foreground
+                ├── mipmap-anydpi-v26/
+                │   ├── ic_launcher.xml             # Adaptive icon
+                │   └── ic_launcher_round.xml       # Round adaptive icon
+                ├── mipmap-mdpi/
+                │   ├── ic_launcher.xml             # Icon - mdpi
+                │   └── ic_launcher_round.xml       # Round icon - mdpi
+                ├── mipmap-hdpi/                    # Icons - hdpi
+                ├── mipmap-xhdpi/                   # Icons - xhdpi
+                ├── mipmap-xxhdpi/                  # Icons - xxhdpi
+                ├── mipmap-xxxhdpi/                 # Icons - xxxhdpi
+                ├── values/
+                │   ├── colors.xml              # Color definitions
+                │   ├── strings.xml             # String resources
+                │   └── themes.xml              # Theme definitions
+                └── xml/
+                    └── file_paths.xml          # FileProvider paths
+
+TOTAL FILES:
+- Kotlin Files: 15
+- Gradle Files: 4
+- Resource Files: 8
+- Documentation Files: 4
+- Configuration Files: 5
+
+TOTAL: 36 files (excluding build artifacts)
